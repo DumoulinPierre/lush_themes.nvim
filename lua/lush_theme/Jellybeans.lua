@@ -84,6 +84,7 @@ local theme = lush(function(injected_functions)
 
     sym("@variable") { fg = my_white.darken(10)},
     sym("@property") { fg = my_white.darken(10)},
+    sym("@keyword") { fg = my_grayLavender },
 
     sym("@keyword.import") { fg = my_lightBlue },
     sym("@keyword.directive.define") { fg = my_lightBlue },
@@ -96,6 +97,8 @@ local theme = lush(function(injected_functions)
     sym("@keyword.conditional") { fg = my_grayLavender },
     sym("@keyword.directive") { fg = my_grayLavender },
     sym("@keyword.return") { fg = my_grayLavender },
+    sym("@keyword.repeat") { fg = my_grayLavender },
+    sym("@label") { fg = my_grayLavender },
 
     Type { fg = my_sandBeige},
     sym("@type.builtin") { fg = my_orange},
